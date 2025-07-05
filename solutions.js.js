@@ -61,6 +61,7 @@
 //3.) The Mirror Mirror: Imagine you have a string, and you need to create a new string that is a mirror image of the original. Write a function that appends the reversed version of the original string to itself.
 
 document.body.style.background = "black";
+document.body.style.color = "white";
 // function mirror(str){
 // const splitstring = str.split('');
 // const reversesplitstring = splitstring.reverse();
@@ -204,4 +205,54 @@ document.body.style.background = "black";
 
 
 // 11.) The Array Filterer: You are building a search feature for your e-commerce site. Write a function named filterProducts that takes an array of product objects and a filter criterion. The function should return a new array containing only the products that match the filter criterion.
+
+// function filterProducts(search){
+// const filterarr = search.filter(element=>element.includes("phone"));
+// console.log(filterarr)
+// }
+// filterProducts(['phone','cell phone','mobile phone','buds','earbuds',])
+
+// 12.) The Token Manager: You are developing a user authentication system, and you need to manage user authentication tokens. Implement a function named setAuthToken that takes an authentication token and sets it in localStorage with an expiration time.
+
+// function setAuthToken(token){
+//   const id = Date.now()
+//   console.log(id)
+// localStorage.setItem(id,token)
+// }
+// const tokennumber = Math.floor(Math.random()*5000+2000)
+// setAuthToken(tokennumber)
+
+
+// 13.) The Shopping Cart Totalizer: You are working on an e-commerce website, and you need to calculate the total cost of items in the shopping cart. Implement a function named calculateTotal that takes an array of products with prices and quantities and returns the total cost.
+
+// function calculateTotal(){
+//  const product_array = [{
+//   product:"potato",
+//   price :20,
+//   quantity:"1 kg"
+// },
+// {
+//   product: "tomato",
+//   price: 40,
+//   quantity: "1 kg"
+// }]
+// let sum = 0;
+// product_array.forEach(item=>{
+//   sum+=item.price
+// })
+// console.log(sum)
+// }
+// calculateTotal()
+
+
+
+// 12.) The Window Scroller: You are developing a single-page application with a smooth scrolling effect. Implement a function named smoothScrollToTop that smoothly scrolls the window to the top when called.
+// function smoothScrollToTop() {
+//   window.scrollTo({
+//     top: 0,      
+//     left: 0,      
+//     behavior: 'smooth' });
+//   console.log("Window is smoothly scrolling to the top!");
+// }
+// smoothScrollToTop();
 
